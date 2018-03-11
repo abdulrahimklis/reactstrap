@@ -14,9 +14,15 @@ constructor(props) {
 
   this.state = {
     todos: [
-      {id: 0, text: "Make react App", completed: false},
-      {id: 1, text: "Test react App", completed: true},
-      {id: 2, text: "Send react app to Bene Studio", completed: false},
+      {id: 0, text: "Contact Bene Studio", completed: true},
+      {id: 1, text: "Send CV to Bene studio", completed: true},
+      {id: 2, text: "Make To-Do App for Bene Studio", completed: true},
+      {id: 3, text: "Make To-Do App", completed: true},
+      {id: 4, text: "Skype interview", completed: false},
+      {id: 5, text: "Online Coding", completed: false},
+      {id: 6, text: "Start working at BeneStudio", completed: false},
+      {id: 7, text: "Visit Tunisia with Medina", completed: false},
+      {id: 8, text: "Visit Medina with Medina", completed: false},
     ],
     nextId: 3
   }

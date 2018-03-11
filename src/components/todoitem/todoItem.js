@@ -43,8 +43,8 @@ export default class TodoItem extends React.Component{
       } else {
         return (
           <span>
-          <input type='text' defaultValue={text} onChange={this.handleChange} />
-            <button onClick={(e)=> this.saveTodo(id, this.state.newText)}>Save</button>
+          <input className="input_edit" type='text' defaultValue={text} onChange={this.handleChange} />
+            <button className="button_edit" onClick={(e)=> this.saveTodo(id, this.state.newText)}>Save</button>
           </span>
         )
       }
